@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project name="scibook">
+	<title lang="ru">Электронный учебник</title>
+	<author>Мушаров А.П</author>
+	<year>2023</year>
+	<ProjectStructure>
+		<Main>Главная</Main>
+		<about>О программе</about>
+		<addUser>Редактор пользлователей (для администратора)</addUser>
+		<reg>Регистрация</reg>
+		<auth>
+				Авторизация под опредленной ролью
+				<admin value="администратор"/>
+				<user value="пользователь"/>
+		</auth>
+		<addArticles>Добавление статьи</addArticles>
+		<Articles>Просмотр статей</Articles>
+	</ProjectStructure>
+</project>
